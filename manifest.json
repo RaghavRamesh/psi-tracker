@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "PSI Tracker",
+	"description": "Quick way to find out the PSI value near your location.",
+	"version": "0.1",
+
+	"browser_action": {
+		"default_icon": "haze-512.png",
+		"default_popup": "popup.html",
+		"default_title": "Click here for PSI"
+	},
+
+	"permissions": [ "activeTab", "https://ajax.googleapis.com/"]
+}
