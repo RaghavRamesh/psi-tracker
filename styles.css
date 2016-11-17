@@ -1,0 +1,8 @@
+table {
+  border: 1px solid black;
+  width: 80px;
+}
+
+thead {
+  font-weight: bold;
+}
