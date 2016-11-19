@@ -3,7 +3,7 @@
 
 	"name": "PSI Tracker",
 	"description": "Quick way to find out the PSI value in Singapore.",
-	"version": "1.0.0",
+	"version": "1.1.0",
 
 	"browser_action": {
 		"default_icon": "icons/haze-128.png",

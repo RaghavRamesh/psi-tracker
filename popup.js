@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-request.open("GET", "http://api.nea.gov.sg/api/WebAPI/?dataset=psi_update", false);
+request.open("GET", "http://api.nea.gov.sg/api/WebAPI/?dataset=psi_update&keyref=781CF461BB6606AD1260F4D81345157FF6CF84BEFC446679", false);
 request.send();
 var xml = request.responseXML;
 var regions = xml.getElementsByTagName("region");
